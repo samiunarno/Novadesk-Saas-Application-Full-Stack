@@ -1,5 +1,7 @@
 import Navbar from "../Component/Navbar";
-import Home from "../Pages/Home";
+import Home from "../Pages/LandingPage/Home";
+import Ourtools from "../Pages/LandingPage/Ourtools";
+
 
 
 export default function MainLayout() {
@@ -8,8 +10,9 @@ export default function MainLayout() {
         <div className="">
               <Navbar/>
         </div>
-         <div className="mt-18 px-3 md:px-20 xl:px-32 ">
+         <div className="mt-16">
             <Home/>
+            <Ourtools/>
         </div>
     </div>
 

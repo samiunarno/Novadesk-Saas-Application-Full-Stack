@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <div className="max-w-[1920px] fixed top-0 z-10 backdrop-blur-2xl flex justify-between w-full items-center py-3 px-3 md:px-20 lg:px-32">
+      <div className="max-w-[1920px] bg-[url('/src/assets/gradientBackground.png')] bg-cover bg-no-repeat  fixed top-0 z-50 backdrop-blur-2xl flex justify-between w-full items-center py-3 px-3 md:px-20 lg:px-32">
         <button className="logo cursor-pointer">
           <img src={img} alt="logo" />
         </button>
