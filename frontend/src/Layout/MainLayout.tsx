@@ -1,6 +1,6 @@
 import Navbar from "../Component/Navbar";
 import Home from "../Pages/LandingPage/Home";
-import Ourtools from "../Pages/LandingPage/Ourtools";
+
 
 
 
@@ -12,7 +12,7 @@ export default function MainLayout() {
         </div>
          <div className="mt-16">
             <Home/>
-            <Ourtools/>
+          
         </div>
     </div>
 
